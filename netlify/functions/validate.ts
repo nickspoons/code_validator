@@ -5,7 +5,7 @@ import { Handler } from '@netlify/functions';
 const processFile = async () => {
    const records = [];
    const parser = fs
-      .createReadStream(`assets/codes.csv`)
+      .createReadStream(`/data/codes.csv`)
       .pipe(parse({
          // CSV options if any
       }));
