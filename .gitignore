@@ -1,0 +1,9 @@
+# Local Netlify folder
+.netlify
+
+node_modules
+
+.gtroot
+tags
+tags.lock
+tags.temp
